@@ -1,96 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  html {
-    /*variáveis*/
-    --bg-color: #EDF2FF;
-    --text-color: #00082F;
-    --primary-color: #4263EB;
-    --primary-color-dark: #364FC7; 
-  }
-  
-  body{
-		background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Pink-Aesthetic-Wallpaper-HD-Free-download.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position-x: center;
-	}
+}
 
-  body.dark-blue {
-    --bg-color: #00082F;
-    --text-color: #FFFFFF;
-  }
-  
-  body.pink {
-    --bg-color: #FFF0F6;
-    --text-color: #1F000B;
-    --primary-color: #D6336C;
-    --primary-color-dark: #A61E4D;
-  }
-  
-  
-  body {
-    background: var(--bg-color);
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .container {
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Purple-Desktop-Backgrounds.jpg);
+    background-size: cover;
+}   
+.container {
+    
     text-align: center;
     width: 300px;
     margin: 60px auto;
-  }
-  
-  img {
+    
+}
+
+img {
     width: 40%;
     border-radius: 50%;
-    border: solid 4px #D6336C(172, 7, 172);
+    border: solid #9f2cf2;
     transition: 300ms;
-} 
-  
-	img:hover{
+}
+
+img:hover{
     opacity: 0.6;
 }
-  
-  img.avatar {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 3.7px;
-    border: var(--primary-color) solid 4px;
-  }
-  
-  h1 {
-    font-size: 32px;
-    margin-top: 24px;
-    margin-bottom: 8px;
-  }
-  
-  .username {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    opacity: 0.8;
-    font-size: 18px;
-  }
-  
-  ul {
+
+a {
+    text-decoration: none;
+}
+
+ul {
     list-style: none;
-    margin: 48px 0;
-  }
-  
-  ul li a  {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+                /*estudar text-shadow css*/
+                /* as cores são hexadecimais, que vão de 0 a F */
+
+
+h2 {
+    font-size: 22;
+    margin-top: 10px;
+    transition: 200ms;
+    color: whitesmoke;
+      text-shadow: 
+               -1px -1px 0px #9f2cf2, 
+               -1px 1px 0px #9f2cf2,      
+                1px -1px 0px #9f2cf2,    
+                1px 0px 0px #9f2cf2;
+                /*estudar text-shadow css*/
+}
+
+h2:hover{
+    opacity: 0.7;
+}
+
+h4 {
+    margin-top: 7px;
+    color: black;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,      
+                1px -1px 0px #FFF,    
+                1px 0px 0px #FFF;
+    opacity: 0.9;
+                /*estudar text-shadow css*/
+}
+
+footer {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: whitesmoke;
+    text-shadow: 
+             -1px -1px 0px #9f2cf2, 
+             -1px 1px 0px #9f2cf2,      
+              1px -1px 0px #9f2cf2,    
+              1px 0px 0px #9f2cf2;
+              opacity: 0.8;
+              /*estudar text-shadow css*/
+}
+ul li a  {
     height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #D6336C (206, 18, 206);
+    background: #a528fe;
     color: white;
     text-transform: uppercase;
     font-size: 14px;
@@ -99,29 +96,8 @@
     border-radius: 6px;
     transition: background 200ms;
 }
-  
-    margin-bottom: 16px;
-    border-radius: 6px;
-  
-    transition: background 400ms;
-  }
-  
-  /*pseudo-class */
+
+/*pseudo-class */
 ul li a:hover {
-    background:#D6336C (177, 4, 177);
+    background: #9f2cf2;
 }
-  
-  footer {
-    font-weight: 500;
-    font-size: 12px;
-    opacity: 0.6;
-    transition: opacity 400ms;
-  }
-  
-  footer:hover {
-    opacity: 1;
-  }
-  
-  footer a{
-    color: var(--text-color);
-  }
