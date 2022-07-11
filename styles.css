@@ -16,6 +16,13 @@
     --primary-color-dark: #364FC7; 
   }
   
+  body{
+		background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Pink-Aesthetic-Wallpaper-HD-Free-download.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: center;
+	}
+
   body.dark-blue {
     --bg-color: #00082F;
     --text-color: #FFFFFF;
@@ -42,8 +49,15 @@
   }
   
   img {
-    width: 100%; 
-  }
+    width: 40%;
+    border-radius: 50%;
+    border: solid 4px #D6336C(172, 7, 172);
+    transition: 300ms;
+} 
+  
+	img:hover{
+    opacity: 0.6;
+}
   
   img.avatar {
     border-radius: 50%;
@@ -71,15 +85,20 @@
     margin: 48px 0;
   }
   
-  ul li a {
-    height: 53px;
+  ul li a  {
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--primary-color); /* hex: 0 - F */
+    background: #D6336C (206, 18, 206);
     color: white;
     text-transform: uppercase;
     font-size: 14px;
+    font-display: bold;
+    margin-bottom: 11px;
+    border-radius: 6px;
+    transition: background 200ms;
+}
   
     margin-bottom: 16px;
     border-radius: 6px;
@@ -87,10 +106,10 @@
     transition: background 400ms;
   }
   
-  /* pseudo-class */
-  ul li a:hover {
-    background: var(--primary-color-dark);
-  }
+  /*pseudo-class */
+ul li a:hover {
+    background:#D6336C (177, 4, 177);
+}
   
   footer {
     font-weight: 500;
