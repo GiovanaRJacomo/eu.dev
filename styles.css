@@ -16,6 +16,14 @@ body {
     
 }
 
+img.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: #9f2cf2(--primary-color) solid 4px;
+  }
+
 img {
     width: 40%;
     border-radius: 50%;
